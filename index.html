@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+    html {
+        scroll-behavior: smooth;
+    }
+    </style>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+     <div class="nav-right">
+    <nav class="navbar">
+        <h2 class="logo">Portfolio</h2>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#certificates" class="nav-link">Certificates</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+    <i class="fa-solid fa-moon"></i>
+</button>
+    </nav>
+    </div>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero hero-premium">
+    <div class="hero-bg">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <div class="hero-layout">
+
+        <div class="hero-card">
+            <div class="hero-card-image-wrap">
+                <img src="images/me.jpeg" alt="Garima Raj" class="hero-card-image">
+            </div>
+
+            <h2>Garima Raj</h2>
+            <p class="hero-card-role">Data Science Engineer</p>
+
+            <p class="hero-card-mini">
+                Turning data into useful insights and backend systems into working products.
+            </p>
+
+            <div class="hero-card-links">
+                <a href="https://linkedin.com/in/garima-raj28" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Garima-Raj" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:garimaraj2005@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+
+            <a href="resume.pdf" download class="hero-card-btn">Download CV</a>
+        </div>
+
+        <div class="hero-main">
+            <p class="hero-kicker">CURRENTLY BUILDING DATA PROJECTS & BACKEND SYSTEMS</p>
+
+            <h1 class="hero-title">
+                DATA
+                <span>SCIENCE</span>
+                ENGINEER
+            </h1>
+
+            <p class="hero-description">
+                I build analytics dashboards, machine learning projects, and backend applications
+                that solve practical problems with real data and clear structure.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <h3>4+</h3>
+                    <p>Projects</p>
+                </div>
+                <div class="hero-stat">
+                    <h3>2k+</h3>
+                    <p>LinkedIn Reach</p>
+                </div>
+                <div class="hero-stat">
+                    <h3>250+</h3>
+                    <p>Problems Solved</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+    <div class="about-wrapper-fresh">
+
+        <!-- LEFT -->
+        <div class="about-main reveal-up">
+            <p class="section-tag">✨ About Me</p>
+
+            <h2>More than just data and code.</h2>
+
+            <p class="about-line">
+                I’m a <span>Data Science Engineer</span> who enjoys building
+                useful things with analytics, machine learning, and backend development.
+            </p>
+
+            <p class="about-line">
+                I like turning messy data into clean insights and real ideas into working products.
+            </p>
+
+            <div class="about-mini-cards">
+                <div class="mini-info-card reveal-up delay-1">
+                    <div class="mini-icon">📊</div>
+                    <h3>Analytics</h3>
+                    <p>Dashboards, KPIs, business insights</p>
+                </div>
+
+                <div class="mini-info-card reveal-up delay-2">
+                    <div class="mini-icon">🤖</div>
+                    <h3>Machine Learning</h3>
+                    <p>Prediction, clustering, classification</p>
+                </div>
+
+                <div class="mini-info-card reveal-up delay-3">
+                    <div class="mini-icon">🛠️</div>
+                    <h3>Backend</h3>
+                    <p>Django-based practical applications</p>
+                </div>
+            </div>
+
+            <div class="about-pills">
+                <span>🐍 Python</span>
+                <span>🗄️ SQL</span>
+                <span>📈 Power BI</span>
+                <span>🌐 Django</span>
+                <span>📂 Excel</span>
+            </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="about-education reveal-left">
+            <div class="edu-panel">
+                <h3>🎓 Education Journey</h3>
+
+                <div class="edu-timeline">
+                    <div class="edu-item reveal-left delay-1">
+                        <div class="edu-dot"></div>
+                        <div class="edu-content">
+                            <span class="edu-year">2023 - Present</span>
+                            <h4>B.Tech in Computer Science and Engineering</h4>
+                            <p>Lovely Professional University</p>
+                            <p>📍 Phagwara, Punjab</p>
+                            <p>CGPA: 8.01</p>
+                        </div>
+                    </div>
+
+                    <div class="edu-item reveal-left delay-2">
+                        <div class="edu-dot"></div>
+                        <div class="edu-content">
+                            <span class="edu-year">2022 - 2023</span>
+                            <h4>Intermediate</h4>
+                            <p>Shakti Shanti Academy</p>
+                            <p>📍 Dighwara, Bihar</p>
+                            <p>CGPA: 7.5</p>
+                        </div>
+                    </div>
+
+                    <div class="edu-item reveal-left delay-3">
+                        <div class="edu-dot"></div>
+                        <div class="edu-content">
+                            <span class="edu-year">2020 - 2021</span>
+                            <h4>Matriculation</h4>
+                            <p>Chapra Central School</p>
+                            <p>📍 Chapra, Bihar</p>
+                            <p>CGPA: 8.5</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BOTTOM -->
+        <div class="about-bottom-grid">
+            <div class="bottom-card reveal-up delay-1">
+                <div class="bottom-icon">🚀</div>
+                <h4>What I enjoy</h4>
+                <p>Building practical projects that solve real-world problems.</p>
+            </div>
+
+            <div class="bottom-card reveal-up delay-2">
+                <div class="bottom-icon">🧠</div>
+                <h4>How I work</h4>
+                <p>Structured, curious, and focused on useful output over buzzwords.</p>
+            </div>
+
+            <div class="bottom-card reveal-up delay-3">
+                <div class="bottom-icon">🎯</div>
+                <h4>My goal</h4>
+                <p>To grow into a strong engineer who can build data-driven systems end to end.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section creative-skills">
+    <div class="skills-wrapper-new">
+
+        <div class="skills-heading reveal-up">
+            <p class="section-tag">⚡ Skills</p>
+            <h2>Tech stack I actually use.</h2>
+            <p>
+                Tools, platforms, and technologies I use for analytics,
+                machine learning, dashboards, and backend development.
+            </p>
+        </div>
+
+        <div class="skills-grid-new">
+
+            <div class="skill-card-new reveal-up delay-1">
+                <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                <h3>Python</h3>
+                <p>EDA, ML, preprocessing</p>
+            </div>
+
+            <div class="skill-card-new reveal-up delay-2">
+                <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                <h3>SQL</h3>
+                <p>Queries, joins, aggregation</p>
+            </div>
+
+            <div class="skill-card-new reveal-up delay-3">
+                <div class="skill-icon"><i class="fa-solid fa-chart-column"></i></div>
+                <h3>Power BI</h3>
+                <p>Dashboards, KPIs, reports</p>
+            </div>
+
+            <div class="skill-card-new reveal-up delay-1">
+                <div class="skill-icon"><i class="fa-solid fa-file-excel"></i></div>
+                <h3>Excel</h3>
+                <p>Reports, pivots, slicers</p>
+            </div>
+
+            <div class="skill-card-new reveal-up delay-2">
+                <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+                <h3>Machine Learning</h3>
+                <p>Clustering, classification</p>
+            </div>
+
+            <div class="skill-card-new reveal-up delay-3">
+                <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>Data Analytics</h3>
+                <p>Insights, trends, patterns</p>
+            </div>
+
+            <div class="skill-card-new reveal-up delay-1">
+                <div class="skill-icon"><i class="fa-solid fa-globe"></i></div>
+                <h3>Django</h3>
+                <p>Backend web development</p>
+            </div>
+
+            <div class="skill-card-new reveal-up delay-2">
+                <div class="skill-icon"><i class="fa-brands fa-github"></i></div>
+                <h3>GitHub</h3>
+                <p>Version control, repos</p>
+            </div>
+
+            <div class="skill-card-new reveal-up delay-3">
+                <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                <h3>C++</h3>
+                <p>Problem solving, DSA</p>
+            </div>
+
+            <div class="skill-card-new reveal-up delay-1">
+                <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                <h3>HTML</h3>
+                <p>Structure and layout</p>
+            </div>
+
+            <div class="skill-card-new reveal-up delay-2">
+                <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+                <h3>CSS</h3>
+                <p>Styling, responsive UI</p>
+            </div>
+
+            <div class="skill-card-new reveal-up delay-3">
+                <div class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                <h3>Problem Solving</h3>
+                <p>Logic, debugging, structure</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section projects-clean">
+    <div class="projects-wrapper">
+
+        <div class="projects-top reveal-up">
+            <p class="section-tag">🚀 Projects</p>
+            <h2>Projects that reflect how I build with data, analytics, and backend systems.</h2>
+            <p class="projects-intro">
+                A selection of work focused on machine learning, dashboards,
+                analytics, and practical web development.
+            </p>
+        </div>
+
+        <div class="projects-grid-equal">
+
+            <div class="project-card-equal reveal-up delay-1">
+                <div class="project-image-wrap">
+                    <img src="images/hotel.png" alt="Hotel Booking Analysis" class="project-img">
+                </div>
+                <div class="project-content">
+                    <h3>Hotel Booking Analysis</h3>
+                    <p>EDA-driven analytics project using dashboards, cleaning, and business-focused insights.</p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>Power BI</span>
+                        <span>Excel</span>
+                    </div>
+
+                    <a href="#" class="project-btn" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card-equal reveal-up delay-2">
+                <div class="project-image-wrap">
+                    <img src="images/crime.png" alt="Crime Hotspot Prediction" class="project-img">
+                </div>
+                <div class="project-content">
+                    <h3>Crime Hotspot Prediction</h3>
+                    <p>Machine learning project for identifying and predicting high-crime areas from historical data.</p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>ML</span>
+                        <span>EDA</span>
+                        <span>Clustering</span>
+                    </div>
+
+                    <a href="https://github.com/Garima-Raj/Crime-Hotspots-Prediction" class="project-btn" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card-equal reveal-up delay-3">
+                <div class="project-image-wrap">
+                    <img src="images/terrorism.png" alt="Global Terrorism Dashboard" class="project-img">
+                </div>
+                <div class="project-content">
+                    <h3>Global Terrorism Dashboard</h3>
+                    <p>Interactive Power BI dashboard with KPIs, filters, trends, and visual incident analysis.</p>
+
+                    <div class="project-tags">
+                        <span>Power BI</span>
+                        <span>Dashboard</span>
+                        <span>Data Modeling</span>
+                    </div>
+
+                    <a href="https://github.com/Garima-Raj/Global-Terrorism-Incident-Tracker" class="project-btn" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card-equal reveal-up delay-1">
+                <div class="project-image-wrap">
+                    <img src="images/django.png" alt="Django Store Website" class="project-img">
+                </div>
+                <div class="project-content">
+                    <h3>Django Store Website</h3>
+                    <p>Backend-driven e-commerce website with login, cart, and database-powered product flow.</p>
+
+                    <div class="project-tags">
+                        <span>Django</span>
+                        <span>Backend</span>
+                        <span>Database</span>
+                    </div>
+
+                    <a href="#" class="project-btn" target="_blank">View Project</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <section id="certificates" class="certificates-section certs-compact">
+    <div class="certificates-wrapper">
+
+        <div class="certificates-top reveal-up">
+            <p class="section-tag">🏆 Certificates</p>
+            <h1>Learning milestones that actually matter.</h1>
+            <p class="certificates-intro">
+                Certifications across cloud, analytics, networking, and security.
+            </p>
+        </div>
+
+        <div class="cert-grid-new">
+
+            <div class="cert-card-new reveal-up delay-1">
+                <div class="cert-accent aws-accent"></div>
+                <div class="cert-preview">
+                    <img src="images/aws.png" alt="AWS Certificate" class="cert-preview-img">
+                </div>
+                <div class="cert-body">
+                    <div class="cert-emoji">☁️</div>
+                    <h3>AWS Cloud Practitioner Essentials</h3>
+                    <p class="cert-provider">AWS Training & Certification</p>
+                    <div class="cert-tags-new">
+                        <span>Cloud</span>
+                        <span>AWS</span>
+                    </div>
+
+                    <button class="cert-btn" onclick="openCertModal('images/aws.png')">
+            View Certificate
+        </button>
+
+                </div>
+            </div>
+
+            <div class="cert-card-new reveal-up delay-2">
+                <div class="cert-accent orange-accent"></div>
+                <div class="cert-preview">
+                    <img src="images/AngaarBatch.png" alt="Data Analytics Certificate" class="cert-preview-img">
+                </div>
+                <div class="cert-body">
+                    <div class="cert-emoji">📊</div>
+                    <h3>Data Analytics & Industry Tools</h3>
+                    <p class="cert-provider">W3grads</p>
+                    <div class="cert-tags-new">
+                        <span>Analytics</span>
+                        <span>Tools</span>
+                    </div>
+
+                    <button class="cert-btn" onclick="openCertModal('images/AngaarBatch.png.png')">View Certificate</button>
+                </div>
+            </div>
+
+            <div class="cert-card-new reveal-up delay-3">
+                <div class="cert-accent purple-accent"></div>
+                <div class="cert-preview">
+                    <img src="images/NPTEL.png" alt="NPTEL Certificate" class="cert-preview-img">
+                </div>
+                <div class="cert-body">
+                    <div class="cert-emoji">🔐</div>
+                    <h3>Privacy and Security in Online Social Media</h3>
+                    <p class="cert-provider">NPTEL</p>
+                    <div class="cert-tags-new">
+                        <span>Security</span>
+                        <span>Privacy</span>
+                    </div>
+
+                    <button class="cert-btn" onclick="openCertModal('images/NPTEL.png.png')">View Certificate</button>
+                </div>
+            </div>
+
+            <div class="cert-card-new reveal-up delay-1">
+                <div class="cert-accent green-accent"></div>
+                <div class="cert-preview">
+                    <img src="images/ComputerCommunications.png" alt="Coursera Certificate" class="cert-preview-img">
+                </div>
+                <div class="cert-body">
+                    <div class="cert-emoji">🌐</div>
+                    <h3>Computer Communications</h3>
+                    <p class="cert-provider">Coursera</p>
+                    <div class="cert-tags-new">
+                        <span>Networking</span>
+                        <span>Communication</span>
+                    </div>
+
+                    <button class="cert-btn" onclick="openCertModal('images/ComputerCommunications.png.png')">View Certificate</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section modern-contact">
+    <div class="contact-container">
+
+        <div class="contact-header reveal-up">
+            <p class="section-tag">📬 Contact</p>
+            <h2>Let’s build something meaningful.</h2>
+            <p>
+                Open to collaborations, projects, or just a conversation about data & development.
+            </p>
+        </div>
+
+        <div class="contact-card reveal-up delay-1">
+
+            <div class="contact-item">
+                <span class="contact-icon">✉️</span>
+                <p>Email</p>
+                <a href="mailto:garimaraj2005@gmail.in">garimaraj2005@gmail.in</a>
+            </div>
+
+            <div class="contact-item">
+                <span class="contact-icon">💻</span>
+                <p>GitHub</p>
+                <a href="https://github.com/" target="_blank">View Profile</a>
+            </div>
+
+            <div class="contact-item">
+                <span class="contact-icon">🔗</span>
+                <p>LinkedIn</p>
+                <a href="https://linkedin.com/" target="_blank">Connect</a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+    <footer class="footer">
+    <p>© 2026 Garima Raj • Built with HTML, CSS & JavaScript</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+
+    <div id="certModal" class="cert-modal">
+    <span class="cert-close" onclick="closeCertModal()">&times;</span>
+    <img class="cert-modal-img" id="certModalImg" alt="Certificate Preview">
+</div>
+
+</body>
+</html>
